@@ -345,3 +345,57 @@ p {
 .smartphone-link:hover {
   background-color: #00fff0;
 }
+/* Need */
+.need {
+  background-color: #f5f6fa;
+  min-height: 530px;
+  display: flex;
+  align-items: center;
+}
+.need-left {
+  width: 50%;
+  text-align: right;
+}
+.need-right {
+  width: 50%;
+}
+.need-left__device {
+  color: #233148;
+}
+.need-left h3 {
+  margin-bottom: 40px;
+}
+.need-text {
+  width: 63%;
+  margin-left: auto;
+  margin-top: 40px;
+}
+.need-left__device {
+  margin-right: 3%;
+}
+.need-left__device img {
+  vertical-align: middle;
+}
+.need-left__device p {
+  display: inline;
+  color: #233148;
+  font-size: 17px;
+  margin-left: 10px;
+}
+.need-right {
+  height: 100%;
+  position: relative;
+}
+.need-right__img {
+  position: absolute;
+  bottom: -322px;
+  z-index: 0;
+  margin-left: 15%;
+}
+/* Video Section */
+.video {
+  background-color: #223047;
+  min-height: 680px;
+  position: relative;
+  z-index: 1;
+}
