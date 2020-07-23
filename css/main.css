@@ -257,6 +257,7 @@ p {
 .getmore {
   display: flex;
   min-height: 500px;
+  background-color: #f5f6fa;
 }
 .getmore-left {
   width: 50%;
@@ -269,11 +270,43 @@ p {
   width: 50%;
   min-height: 300px;
   padding: 40px;
-  margin-left: 10%;
 }
 .getmore-right p {
   margin-top: 60px;
   width: 70%;
+  margin-left: 10%;
 }
 .getmore-right h3 {
+  margin-left: 10%;
+}
+
+.stable {
+  display: flex;
+  min-height: 500px;
+  text-align: right;
+}
+
+.stable-left {
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.stable-left p {
+  margin: 40px 0 40px auto;
+  width: 75%;
+}
+.stable-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.stable-right img {
+  margin-left: 12%;
+}
+
+.stable .nav-btn {
+  width: 188px;
+  margin-left: auto;
 }
