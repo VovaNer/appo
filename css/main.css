@@ -436,3 +436,8 @@ p {
   position: relative;
   z-index: 1;
 }
+/* Join Section */
+.join {
+  min-height: 650px;
+  background-color: #ccc;
+}
