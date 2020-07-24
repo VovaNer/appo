@@ -282,9 +282,13 @@ p {
 }
 /* Stable */
 .stable {
-  display: flex;
-  min-height: 530px;
+  min-height: 550px;
   text-align: right;
+  display: flex;
+  align-items: center;
+}
+.stable .container {
+  display: flex;
 }
 .stable-left {
   width: 50%;
@@ -440,4 +444,7 @@ p {
 .join {
   min-height: 650px;
   background-color: #ccc;
+}
+.need-right__img {
+  max-width: 100%;
 }
