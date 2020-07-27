@@ -8,6 +8,7 @@
 body {
   /* font-family: 'Dosis', sans-serif; */
   font-size: 14px;
+  overflow-x: hidden;
 }
 
 body a,
@@ -15,6 +16,10 @@ a:link,
 a:visited {
   color: inherit;
   text-decoration: none;
+}
+
+img {
+  max-width: 99%;
 }
 
 ul,
@@ -443,8 +448,83 @@ p {
 /* Join Section */
 .join {
   min-height: 650px;
-  background-color: #ccc;
+  background-color: #fff;
+  padding: 120px 0 65px;
 }
-.need-right__img {
-  max-width: 100%;
+.join-inner {
+  background: url("../img/Map.png") center center no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 460px;
+}
+.join-inner h3 {
+  letter-spacing: 0.75px;
+}
+.join-inner p {
+  margin: 18px 0 60px;
+  color: #233148;
+  font-size: 17px;
+  letter-spacing: 0.425px;
+}
+.join-btn {
+  padding: 10px 30px;
+  font-size: 17px;
+  color: #233148;
+  background-color: #00fff0;
+  border: none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.join-btn:hover {
+  background-color: #00bdb0;
+  color: #fff;
+  box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.35);
+}
+/* Text Line Section */
+.textLine {
+  background-color: #223047;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textLine-inner p {
+  width: 62%;
+  margin: 0 auto;
+  text-align: center;
+  color: #00fff0;
+}
+/* Now Available Section */
+.available {
+  padding: 100px 0;
+}
+.available-left,
+.available-right {
+  max-width: 50%;
+}
+.available .container {
+  display: flex;
+  align-items: center;
+}
+.available-right p {
+  margin: 15px 0 65px;
+}
+.available-left img {
+  display: block;
+  margin-left: 10%;
+}
+.available-right {
+  margin-left: 10%;
+}
+.download-links a {
+  margin-right: 20px;
+}
+.download-links img {
+  transition: all 0.3s ease-in-out;
+}
+.download-links img:hover {
+  transform: scale(1.1);
 }
